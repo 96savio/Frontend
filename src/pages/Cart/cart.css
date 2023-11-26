@@ -1,0 +1,49 @@
+.wrap-all{
+    background-color: white;
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+     margin:  0 auto;
+}
+
+.itens-cart2{
+ 
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+   width: 100%;
+   height: auto;
+   padding-top: 5px;
+   gap: 2px;
+   text-align: center;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Finalizar{
+    width: 100%;
+   
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrap-all a{
+    display:  flex;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(70, 70, 236);
+    width: 120px;
+    height:40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}

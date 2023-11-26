@@ -1,0 +1,82 @@
+.formcontrol-addcliente{
+    padding-top: 5%;
+    background-color: rgb(243, 235, 236);
+     display: flex;
+     flex-direction: column;
+     height:600px;
+     flex-wrap: wrap;
+     align-items: center;
+
+}
+
+.formcadastro-newcliente{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  background-color: blueviolet;
+  color: rgb(8, 8, 8);
+   text-align: center;
+}
+.formcadastro-newcliente label{
+    display: flex;
+    text-align: center;
+    width: 80%;
+    color: black;
+    
+}
+.formcadastro-newcliente input{
+    height: 30px;
+    width: 80%;
+    
+    text-align: left;
+ }
+.Grupo{
+  
+    width: 60px; 
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+font-size: small;
+}
+
+@media only screen and (max-width:480px){
+    .formcontrol-addcliente{
+        width: 100%;
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .formcadastro-newcliente{
+        color: #eee7f5;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+     height: fit-content;
+     padding: 5px;
+    
+    }
+    
+    .Grupo{
+      
+        width: 60px; 
+        border-radius: 5px;
+        margin-left: 80px;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    
+    }
+option{
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    height: 5px;
+}
+
+}

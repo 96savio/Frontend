@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+ 
+  margin: 0px;
+  padding: 0px ;
+  
+}
+
+body{
+  background-color: rgb(73, 74, 75);
+  margin: 0px;
+  padding: 0px;
+ 
+  
+}
+
+a{
+  text-decoration: none;
+}
